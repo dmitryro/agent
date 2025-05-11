@@ -1,5 +1,15 @@
 # Thoughtful AI Customer Support Agent
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.37.1-red)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+[![Dependencies](https://img.shields.io/badge/Dependencies-requirements.txt-brightgreen)](./requirements.txt)
+[![Status](https://img.shields.io/badge/Status-Prototype-yellow)](https://github.com/)
+
+**Author**: Dmitry Roitman  
+**Version**: 1.0.0  
+**License**: [MIT License](./LICENSE) - This project is licensed under the MIT License, which allows for free use, modification, and distribution, subject to the terms in the LICENSE file.
+
 A simple customer support AI agent built for Thoughtful AI using Streamlit and Python. The agent answers questions about Thoughtful AI's agents (EVA, CAM, PHIL) using a predefined dataset and falls back to generic responses for unmatched queries cherry picked by Dmitry Roitman.
 
 ## Features
@@ -14,7 +24,7 @@ A simple customer support AI agent built for Thoughtful AI using Streamlit and P
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:dmitryro/agent.git thoughtful-ai-agent
    cd thoughtful-ai-agent
    ```
 2. Install dependencies:
@@ -25,6 +35,7 @@ A simple customer support AI agent built for Thoughtful AI using Streamlit and P
    ```bash
    streamlit run app.py
    ```
+   Open your browser at http://localhost:8501 to verify the agent works as expected.
 
 ## Dependencies
 - Python 3.8+
